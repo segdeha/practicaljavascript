@@ -1,0 +1,158 @@
+/*  PracticalJavaScript.com
+    Andrew Hedges, andrew@hedges.name
+    2010-10-01
+*/
+
+html, body, header, footer, article, section, nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p, ul, ol, li, dl, pre, blockquote {
+    margin: 12px 0;
+    vertical-align: baseline;
+}
+
+body {
+    font: 16px/24px Georgia, Serif;
+    margin: 0 auto;
+    max-width: 748px;
+    min-width: 300px;
+    padding: 1em 10px;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+	color: #00c;
+	text-decoration: none;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:visited {
+		color: #c0c;
+	}
+
+h1, h2, h3 {
+    font: 36px/48px 'IM Fell English', Georgia, Serif;
+    text-shadow: 0 1px 2px #ccc;
+}
+
+h1 {
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+blockquote p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+pre, code {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+pre {
+    border-bottom: solid 1px #e7e7e7;
+    border-top: solid 1px #e7e7e7;
+    padding: 12px 0;
+}
+
+code {
+    background: #e7e7e7;
+    padding: 2px 4px;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+a.selected {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.screenshot {
+    width: 100%;
+    -webkit-box-shadow: #e7e7e7 0 4px 4px;
+    -moz-box-shadow: #e7e7e7 0 4px 4px;
+    box-shadow: #e7e7e7 0 4px 4px;
+}
+
+nav ul {
+    display: table;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+nav li {
+    display: table-cell;
+}
+
+#topics li a {
+	display: inline-block;
+	position: relative;
+}
+	#topics li a:before,
+	#topics li a:after
+	{
+		position: absolute;
+	}
+	#topics li:first-child a:before {
+		content: '«';
+		left: -10px;
+	}
+	#topics li:last-child a:after {
+		content: '»';
+		right: -10px;
+	}
+
+header {
+    border-bottom: solid 1px #666;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}
+
+footer {
+    border-top: solid 1px #666;
+    clear: both;
+    font-size: 12px;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+    footer p {
+        margin-top: 0;
+    }
+    footer nav {
+        float: right;
+    }
+        footer nav li {
+            padding-left: 6px;
+        }
+
+article nav {
+    border-top: solid 1px #e7e7e7;
+    padding-top: 12px;
+}
+    article nav li:last-child {
+        text-align: right;
+    }

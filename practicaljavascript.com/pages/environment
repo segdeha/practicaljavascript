@@ -1,0 +1,110 @@
+> A "development environment" is what programmers call the software you need to write and execute 
+computer programs. Ohhh yeah, you're a programmer now.
+
+One of the best things about writing JavaScript is how simple the development environment can be. 
+All you really need is a web browser and a text editor. There are a couple of other things we'll set 
+up that give us some advanced capabilities, but at its simplest, that's it.
+
+## JavaScript console
+
+You can use this online [JavaScript console](http://jsconsole.com/) to try out any 1-line programs. It 
+runs in a web browser. It's super handy. So, if you haven't already, open it up in another window or 
+tab now.
+
+## Text editor
+
+This step is dead simple. You need an app that can edit text. Not to give away any trade secrets 
+or anything, but programmers call these "text editors." I know, right?
+
+Just to be clear as crystal, Microsoft Word is not a text editor. It's a word processor. What's the 
+difference? Word (and other word processors, such as Apple's Pages) save files in formats that include a 
+bunch of junk other than just the text (where, by "junk," I mean super useful formatting information).
+
+I develop in [Coda](http://panic.com/coda/), a web development environment for the Mac that's 
+excellent for writing JavaScript. Alas, it's not free, so if you prefer to do this on the cheap, here 
+are a couple of alternatives that are. Go get one. Install it. Then continue.
+
+* [TextWrangler](http://www.barebones.com/products/textwrangler/) -- Mac
+* [Notepad++](http://www.notepad-plus-plus.org/) -- Windows
+* _What's an equivalent for Linux?_
+
+### Skeleton page
+
+OK, you should now have a proper text editor installed. Fire that sucker up and let's create a new 
+file. This file will be where we write JavaScript programs longer than a single line. Which will be, 
+you know, most of them.
+
+Copy the HTML below and paste it into a blank file in your fancy, new text editor.
+
+<pre class="sh_html">
+&lt;!DOCTYPE HTML>
+&lt;html>
+  &lt;head>
+    &lt;title>Practical JavaScript&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;script type="text/javascript">
+    
+    // your javascript here!
+    
+    &lt;/script>
+  &lt;/body>
+&lt;/html>
+</pre>
+
+Save the file somewhere, then open it up in a web browser window. Which web browser? I'm glad you 
+asked....
+
+## Web browser
+
+Recent versions of pretty much any web browser are all going to run JavaScript just fine. There are some 
+that make it easier than others to do some advanced things like detecting where the bugs are in your 
+programs.
+
+Both [Safari](http://www.apple.com/safari/) and [Chrome](http://www.google.com/chrome/) have built-in 
+developer tools. [Firefox](http://getfirefox.com) also has an excellent developer console, but you have 
+to install it as an extension, called [Firebug](http://getfirebug.com).
+
+Here's how to get to the JavaScript console, first in Safari, then in Chrome, and finally in Firefox.
+
+### Safari
+
+In Safari &gt; Preferences &gt; Advanced, make sure the "Show Develop menu in menu bar" option is 
+checked.
+
+<img class="screenshot" src="/-/img/safari-preferences-lowsrc.png" alt="Safari Preferences">
+
+In the Develop menu, select "Show Error Console" (which should really be called "Show JavaScript 
+Console").
+
+<img class="screenshot" src="/-/img/safari-console-lowsrc.png" alt="How to find the Safari JavaScript Console">
+
+### Chrome
+
+In the View menu, select "Developer" &gt; "JavaScript Console".
+
+<img class="screenshot" src="/-/img/chrome-developer-menu-lowsrc.png" alt="How to find the Chrome JavaScript Console">
+
+### Firefox + Firebug
+
+With Firebug installed, in the Tools menu, select "Firebug" &gt; "Open Firebug" (you can also choose 
+to open Firebug in a new window).
+
+<img class="screenshot" src="/-/img/firefox-firebug-menu-lowsrc.png" alt="How to find Firefox's Firebug">
+
+## What now?
+
+You should now have a text editor, a skeleton web page saved to your hard drive somewhere, and a web 
+browser with a JavaScript console enabled and ready for fun.
+
+For simple stuff, like 1-line JavaScript statements, you can enter them directly into the console to 
+see what happens. For multi-line scripts, the process will consist of the following couple of steps:
+
+1. Open the skeleton page in your text editor.
+1. Copy & paste (or, if you remember better by typing, type) the program in the example at-hand into 
+   the skeleton page where you currently see the text `// your javascript here!`. (Don't forget to 
+   hit "Save"!)
+1. Open the skeleton page in your web browser window. In most cases, you'll see an alert message 
+   pop up or something. You can also watch the console to see if there are any errors in your program.
+
+Are you ready to (finally) learn some JavaScript? Let's do this thing.

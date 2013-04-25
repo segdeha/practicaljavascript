@@ -1,0 +1,39 @@
+> This guide only scratches the surface of the powerful, expressive language that is JavaScript. 
+The following are some of the best resources on the web if you want to take your learning 
+further.
+
+## Getting started
+
+* [JavaScript Guide](https://developer.mozilla.org/en/JavaScript/Guide) -- Mozilla Developer 
+  Center
+
+## References
+
+* [JavaScript Reference](https://developer.mozilla.org/en/JavaScript/Reference) -- Mozilla Developer 
+  Center
+
+## Tools
+
+* [JavaScript console](http://jsconsole.com) -- by [Remy Sharp](http://twitter.com/rem)
+* [JSLint](http://jslint.com) -- by Douglas Crockford, Yahoo!'s Chief JavaScript Architect
+
+## Advanced topics
+
+* [ECMA-262](http://dmitrysoshnikov.com/ecmascript/) -- deep exploration of the language, by 
+  JavaScript theoretician, [Dmitry Soshnikov](http://twitter.com/DmitrySoshnikov)
+
+## Blogs & people
+
+* [DailyJS](http://dailyjs.com/)
+* [Douglas Crockford's JavaScript](http://javascript.crockford.com/) -- by the Yahoo! JavaScript 
+  architect of the same name
+
+## Books (yes, they still print books)
+
+* [JavaScript, The Good Parts](http://www.amazon.com/exec/obidos/ASIN/0596517742/practjavas-20) -- by 
+  Douglas Crockford
+* [JavaScript Patterns](http://www.amazon.com/exec/obidos/ASIN/0596806752/practjavas-20) -- by 
+  Stoyan Stefanov
+* [JavaScript: The Definitive Guide](http://www.amazon.com/exec/obidos/ASIN/0596101996/practjavas-20) -- 
+  by David Flanagan (look for a quote from me on the back cover of the 4th edition!)
+

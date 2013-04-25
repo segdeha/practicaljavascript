@@ -1,0 +1,7 @@
+> Objects are the building blocks of JavaScript. Everything that's not a [primitive](/primitives) 
+is an object. Objects are objects, but so are functions. And arrays. And strings. And numbers.
+
+In JavaScript, an object is a container for named values, called properties.
+
+<pre class="sh_javascript">
+</pre>

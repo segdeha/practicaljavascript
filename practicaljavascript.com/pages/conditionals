@@ -1,0 +1,81 @@
+> Unlike in love, in JavaScript, it's good to be conditional.
+
+Any non-trivial program will need to do different things based on changes to the current state of affairs. 
+That's where conditionals come in. There are 2 main types, with one funky variation.
+
+## if/else
+
+This is the most common way of enforcing conditional execution of JavaScript code. Think of it as being 
+like a railroad switch. You open or close the switch based on where you want the train to go. In the same 
+vein, you send your program down one course or the other based on certain values.
+
+<pre class="sh_javascript">
+var name = 'Bob';
+
+if (name === 'Jim') {
+  // this will not be exectued
+}
+else {
+  // this will be executed
+}
+</pre>
+
+The above condition could be stated in prose as, "If the value of the variable `name` is `'Jim'`, then 
+do the stuff in the first block. Otherwise, do the stuff in the second block." Because the value of 
+`name` is actually `'Bob'`, the condition evaluates to `false` and the second block of stuff will be 
+executed.
+
+There are several other types of comparisons you can make, as demonstrated below. Furthermore, JavaScript 
+will attempt to interpret pretty much anything as either "truthy" or "falsy." You'll see.
+
+<pre class="sh_javascript">
+1 < 2 // true (1 is less than 2)
+1 // true
+0 // false
+-1 // true
+'1' // true
+'0' // true
+'' // false
+true // true
+false // false
+undefined // false
+null // false
+</pre>
+
+### The ternary operator
+
+A variation of `if`/`else` is the ternary operator. It's useful when you have a condition that will result 
+in 1 of 2 simple actions or value assignments. Here's the format.
+
+<pre class="sh_javascript">
+[condition] ? [executed if true] : [executed if false]
+</pre>
+
+This can be used, for example, for variable assignment.
+
+<pre class="sh_javascript">
+var a = 1;
+var b = a > 0 ? 'one' : 'zero';
+b // 'one'
+</pre>
+
+## switch/case
+
+When you have a variable with many possible values, each of which results in a different action, `switch`/`case` 
+is your friend.
+
+<pre class="sh_javascript">
+var a = 1;
+
+switch (a) {
+  case 0:
+    // this will not be executed
+    break;
+  case 1:
+    // this will be executed
+    break;
+  default:
+    // this will not be executed
+    break;
+}
+</pre>

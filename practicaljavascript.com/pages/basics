@@ -1,0 +1,267 @@
+> Programming languages are abstractions. We're trying to get the computer to do what we want, but it 
+thinks in 1s and 0s and we think in concepts and words. So, clever creatures that we are, humans have 
+invented systems for translating between the two.
+
+JavaScript is called a "high-level" language because its abstraction passes through many other layers of 
+abstractions before it is finally translated into the 1s and 0s computers understand. Most often, we run 
+JavaScript code in the context of a web page in a browser window. The browser provides an environment 
+that understands JavaScript syntax and knows how to take action based on it.
+
+## A simple example
+
+No programming tutorial is complete without a 
+[Hello World](http://en.wikipedia.org/wiki/Hello_world_program) example to kick things off.
+
+Open [jsconsole.com](http://jsconsole.com/) in its own browser window or tab. Click in the light blue bar 
+at the top and type in the following, then hit enter:
+
+<pre class="sh_javascript">
+alert("Hello, world!")
+</pre>
+
+Congratulations, you just wrote and executed JavaScript!
+
+## Building blocks
+
+Most programming languages share a few of the same building blocks. If you're not already a programmer, 
+this is going to be new information for you. The good news is, once you learn it for JavaScript, it will 
+make learning the next language that much easier. "Oh, goody," I can hear you thinking.
+
+### Comments
+
+Let's get this out of the way because I've already used them and you're going to see a whole lot more of 
+them in the examples that follow. A comment is some text that **doesn't** get executed. There are the 
+following 2 types of comments in JavaScript:
+
+<pre class="sh_javascript">
+// one-line comment
+// starts with slash slash
+// ends at the end of the line
+
+/* multi-line comment
+   starts with a slash asterisk
+   ends with an asterisk slash
+*/
+</pre>
+
+### Primitives
+
+Another name for primitives could be values. It includes the following and a few others I'll cover in [the 
+section dedicated to primitives](/primitives):
+
+<pre class="sh_javascript">
+"Hello, world!" // string
+42 // number
+true // boolean
+</pre>
+
+### Variables
+
+A variable is a container for a value. It's the cup to your coffee, the Tupperware&#8482; to your leftovers. 
+Once you assign a value to a variable, you can access it later by the name of the variable.
+
+<pre class="sh_javascript">
+var a = "Hello, world!";
+var myNumber = 42;
+var truth = true;
+
+a // "Hello, world!"
+myNumber // 42
+truth // true
+</pre>
+
+### Arrays
+
+An array is a container that can hold multiple values (or zero values.) Say you have some donuts in a box. 
+The box is like the array and the donuts are the values. Mmmm...donuts.
+
+<pre class="sh_javascript">
+var donuts = [
+  'glazed', 
+  'jelly-filled', 
+  'old fashioned'
+];
+
+donuts[0] // 'glazed'
+donuts[1] // 'jelly-filled'
+donuts[2] // 'old fashioned'
+</pre>
+
+Once you have assigned values to an array, you can access the value by its numerical index. And, yes, the 
+numerical index starts at `0`. If you're not a programmer, that probably makes `0` sense to you. Sorry, 
+that's just how it is.
+
+### Objects
+
+Now, instead of just storing the names of donuts, say you want to store your personal 1-10 rating of each 
+type of donut. One way to do this would be to create an object.
+
+<pre class="sh_javascript">
+var donut_ratings = {
+  'glazed' : 3.5,
+  'jelly-filled' : 7,
+  'old fashioned' : 174.9
+};
+
+donut_ratings.glazed // 3.5
+donut_ratings['jelly-filled'] // 7
+donut_ratings['old fashioned'] // 174.9
+</pre>
+
+That's not a typo, there are a couple of different ways to access values stored in an object. I'll cover 
+this in more detail in [the objects section](/objects). By the way, everything in JavaScript that's not a 
+primitive is an object.
+
+### Loops
+
+Sometimes in a computer program you will need to do something multiple times. For example, say you have an 
+array of values. JavaScript has a construct that allows you to loop over the values without having to 
+access each value individually.
+
+<pre class="sh_javascript">
+var donuts = [
+  'glazed', 
+  'jelly-filled', 
+  'old fashioned'
+];
+
+// meh...
+donuts[0] // 'glazed'
+donuts[1] // 'jelly-filled'
+donuts[2] // 'old fashioned'
+
+// yeh!
+for (var i = 0; i < donuts.length; i = i + 1) {
+  alert(donuts[i]);
+}
+</pre>
+
+Don't worry if that looks confusing. I'll break it down in [the loops section](/loops).
+
+### Conditionals
+
+What fun would programming be if your script did the same thing every time? Conditionals allow you to 
+execute different code based on the value of variables at the time.
+
+<pre class="sh_javascript">
+var truth = true;
+
+if (truth) {
+  alert('yes!'); // this line gets executed
+} else {
+  alert('no.'); // this line does not
+}
+</pre>
+
+This isn't the only way to branch within your scripts. I'll cover other ways in 
+[the section on conditionals](/conditionals).
+
+### Functions
+
+Functions are like mini programs within your larger program. It's possible to name a function and call it 
+at some arbitrary point in your program's execution. We've already seen the built-in function `alert` in 
+action. Here's another example. First we declare the function `myFunc`, then we call (execute) it.
+
+<pre class="sh_javascript">
+function myFunc() {
+  // do something useful
+}
+
+myFunc();
+</pre>
+
+Functions are really important in JavaScript. I'll go into a lot more detail in 
+[the functions section](/functions).
+
+### Built-in objects & methods
+
+JavaScript defines several helpful objects you can access for common tasks. These include `Math` and `Date`, 
+but it also includes methods (functions) that are automatically attached to strings, numbers, and arrays. 
+I won't cover all of these in [the built-ins section](/built-ins), but I will cover a few to give you a 
+taste of the possibilities. Sounds enticing, doesn't it?
+
+<pre class="sh_javascript">
+Math.round(17.6); // 18
+
+var d = new Date();
+d.getFullYear(); // 2010
+
+var s = 'WHY AM I SHOUTING?';
+s.toLowerCase(); // 'why am i shouting?'
+
+var n = 123;
+n.toExponential(); // 1.23e+2
+
+var a = ['a', 'b', 'c'];
+a.pop(); // 'c'
+</pre>
+
+## A couple peculiarities
+
+JavaScript, bless its heart, is a quirky little language. Here are a couple of things to keep in mind.
+
+### Case-sensitivity
+
+JavaScript is case-sensitive. E.g., `function` is not the same as `Function`.
+
+### Whitespace
+
+JavaScript interpreters ignore extra whitespace (spaces, tabs, and newlines). The following functions 
+are equivalent:
+
+<pre class="sh_javascript">
+function myFunc () {
+  alert ( 'Hola!' );
+}
+
+function myFunc(){alert('Hola!');}
+</pre>
+
+Some words in JavaScript (e.g., `var`) only make sense when followed by whitespace. Some others must be 
+followed by whitespace unless they're followed by certain "tokens" (`{`, `(`, etc.). Again, the following 
+are equivalent:
+
+<pre class="sh_javascript">
+function(){var a=1}
+
+function () { var a = 1 }
+</pre>
+
+[The actual rules](http://bclary.com/2004/11/07/#a-7.2) are kind of involved, so I'll just leave it at 
+this: whitespace can often be omitted, but it's generally good form to use whitespace (especially 
+indentation) to make your programs easier to read.
+
+Expect to pick up a "feel" for the rules as you see more code examples. If you feel like going back and 
+learning the formal rules later, they'll always be there.
+
+### Type conversion
+
+JavaScript is what's known to programmers as "loosely-typed." That's right, JavaScript is the floozy of 
+programming languages. Here's an example of why this matters. You can add two numbers in JavaScript using 
+the `+` operator. You can also add two strings together using the same `+` operator. But what happens when 
+JavaScript is left to decide whether something is a string or a number? Consider the following:
+
+<pre class="sh_javascript">
+2 + 2 // 4 (all's well)
+'two' + 'two' // 'twotwo' (makes sense)
+2 + '2' // '22' (huh?)
+2 * '2' // 4 (now you're just messin')
+</pre>
+
+For most mathematical operators (e.g. `-`, `*`, and `/`), JavaScript will try to convert the values to 
+numbers. For the `+` operator, it won't because `+` also works on strings. Good times. Don't feel bad, 
+every JavaScript programmer has been bitten by this particular quirk at one point or another.
+
+### Reserved words
+
+According to 
+[Mozilla's Developer Center](https://developer.mozilla.org/en/JavaScript/Reference/Reserved_Words), the 
+following words are reserved (that is, you can't use them for either variable or function names):
+
+_abstract, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, 
+double, else, enum, export, extends, final, finally, float, for, function, goto, if, implements, import, in, 
+instanceof, int, interface, long, native, new, package, private, protected, public, return, short, static, 
+switch, super, synchronized, this, throw, throws, transient, try, typeof, var, void, volatile, while, with_
+
+Don't worry. With over [200,000 words](http://wiki.answers.com/Q/How_many_words_are_in_the_English_language) 
+just in English, you still have plenty of options.

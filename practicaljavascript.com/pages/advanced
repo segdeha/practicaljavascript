@@ -1,0 +1,35 @@
+> As you might suspect, we've really only scratched the surface of JavaScript's capabilities so far. The 
+following are a few advanced topics that I'll touch on to give you a basic understanding.
+
+A great source of more information about the topics below is [
+Mozilla's Developer Network](http://developer.mozilla.org).
+
+### DOM
+
+<https://developer.mozilla.org/en/DOM>
+
+### Events
+
+<https://developer.mozilla.org/en/DOM/event>
+
+### Ajax
+
+<https://developer.mozilla.org/en/AJAX>
+
+### JSON
+
+<http://json.org>
+
+### Variable scope
+
+<https://developer.mozilla.org/en/JavaScript/Reference/Functions_and_function_scope>
+
+### Closures
+
+A closure is like a crystal ball that can see into the place where it was made.
+
+<https://developer.mozilla.org/en/JavaScript/Guide/Closures>
+
+### Prototypes
+
+<https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/prototype>

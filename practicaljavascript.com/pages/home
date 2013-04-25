@@ -1,0 +1,71 @@
+> I used to be like you. Before getting into web development in 1998, I was a college administrator, 
+a "normal," not a "geek."
+
+> I was a French major. I never took a computer science class. If I can learn JavaScript, so can you.
+
+_Practical JavaScript_ is a gentle introduction to the JavaScript language for non-programmers. It's not 
+for "dummies" or "idiots." I'm not going to dumb it down. I'm just going to relate the concepts to things 
+with which "normals" should be familiar, like cups of coffee. And donuts. Mmm...donuts.
+
+## What is JavaScript?
+
+JavaScript is a programming language, more formally known as 
+[ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm), that is most 
+commonly executed in the context of web browsers. It is used to add interactivity (also called 
+"behavior") to otherwise static web pages. When you click a link or button on the web and something 
+changes without you being taken to a new page, that is JavaScript in action.
+
+## What do I need to use this site?
+
+Everything you need to make use of this site is free.
+
+* A web browser. (Hint: Chances are, that's what you're using to read this right now.) I'll use Apple's 
+  [Safari](http://www.apple.com/safari/), but [Google Chrome](http://www.google.com/chrome/), 
+  [Firefox](http://firefox.com/), [Opera](http://www.opera.com/), and 
+  [Internet Explorer](http://www.microsoft.com/ie/) are all up to the task.
+* [JavaScript console](http://jsconsole.com/) (Tip: Go ahead and open that up in a second window or tab 
+  now.)
+* For more complex examples, you'll need a text editor (e.g., 
+  [TextWrangler](http://www.barebones.com/products/textwrangler/) on the Mac or 
+  [Notepad++](http://www.notepad-plus-plus.org/) on Windows).
+  
+I'll explain in some detail how to get set up to write JavaScript in 
+[the environment section](/environment).
+
+## How to use this site
+
+First, some conventions. Code (as opposed to prose) looks like `this` when in the middle of normal text. 
+It looks like the following when set off by itself:
+
+<pre class="sh_javascript">
+function () {
+  // magic happens
+}
+</pre>
+
+The general pattern for each topic will be as follows:
+
+1. Quick explanation of the concept at-hand in langauge as simple as possible, but not simpler
+1. Some example code that you can try out
+
+You can start at the beginning and work your way through it, or you can jump around. Your choice. Here's 
+a table of contents to facilitate jumping around. Alternately, just follow the links at the bottom/right 
+of each page to work your way through from start to finish.
+
+### Table of Contents
+
+1. Intro (this page)
+1. [Development environment](/environment)
+1. [JavaScript basics](/basics)
+1. [Primitives](/primitives)
+1. [Variables](/variables)
+1. [Arrays](/arrays)
+1. [Objects](/objects)
+1. [Loops](/loops)
+1. [Conditionals](/conditionals)
+1. [Functions](/functions)
+1. [Built-in objects & methods](/built-ins)
+1. [Advanced topics](/advanced)
+1. [Resources for further learning](/resources)
+
+Time to get your environment set up, then let's learn some JavaScript!

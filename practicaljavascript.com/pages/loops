@@ -1,0 +1,67 @@
+> Loops allow you to do an operation multiple times or to act on every member of a set of values.
+
+## for
+
+`for` loops are the simplest and most common type of loop you will see in JavaScript. How it works is 
+you set up a starting condition, a way to check whether it's still true, and something that changes 
+the condition on each iteration. Here's a simple example.
+
+<pre class="sh_javascript">
+for (var i = 0; i < 3; i = i + 1) {
+  alert(i); // 0, then 1, then 2
+}
+</pre>
+
+What that will do is set a variable, `i`, to 0, and evaluate that it's less than 3 (which it is, 
+obviously). So, cool, we'll enter the loop (denoted by the curly braces, `{}`). The code inside the 
+loop will pop up an alert message with the value 0. Now, because we've reached the end of the loop, 
+`i = i + 1` gets executed. This increments our `i` variable to 1, and starts the process over. Rinse 
+and repeat. As long as our condition evaluates to true (that is, as long as `i` is less than 3), we'll 
+keep running the code inside the loop.
+
+### &#8734;
+
+If you're not careful, it's possible to set up what's called an "infinite" loop. Consider (but don't 
+run!) the following code:
+
+<pre class="sh_javascript">
+for (var i = 0; i > -1; i = i + 1) {
+  // ruh roh, raggy
+}
+</pre>
+
+In this example, `i` is set to 0, and is incremented by 1 after each interval. That's all fine. What 
+make this loop infinite is that our condition is checking to make sure `i` is greater than -1, which 
+will always evaluate to true. Bam! Our loop has no way of stopping. This will quickly bring your 
+computer to a screeching halt until it runs out of memory and the browser crashes in a fiery heap. 
+Well, not literally fiery. I hope.
+
+## while
+
+A `while` loop is like a `for` loop, but different. It will keep on spinning as long as the condition 
+you specify evaluates to true.
+
+<pre class="sh_javascript">
+var i = 3;
+while (i > 0) {
+  // do something
+  i = i - 1;
+}
+</pre>
+
+In this case, the code inside our loop will run 3 times. The first time through, `i` will equal 3, 
+until we decrement it. At the end of the loop, the condition will be evaluated again. Since we 
+decremented `i` by 1, the loop will run again. And again. Then it will pass out of the loop once 
+`i` equals 0.
+
+## do/while
+
+Whereas `while` loops evaluate the condition before executing the code inside the loop, `do`/`while` 
+loops always run the code inside the loop once before evaluating the condition.
+
+<pre class="sh_javascript">
+var i = 3;
+do {
+  // do something
+} while (i = i - 1);
+</pre>

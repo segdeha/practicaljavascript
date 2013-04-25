@@ -1,0 +1,149 @@
+/*	Created by Andrew Hedges, andrew@hedges.name
+	Colours based on Panic's Coda IDE
+*/
+
+pre.sh_sourceCode {
+  background-color: transparent;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Panic Sans", "Andale Mono", Monaco, Monospace;
+}
+
+pre.sh_sourceCode .sh_keyword {
+  color: #a90061;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_symbol {
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_type {
+  color: #b65500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_string {
+  color: #f80;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_regexp {
+  color: #760f15;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_specialchar {
+  color: #2f1dbe;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_comment {
+  color: #008234;
+  font-weight: normal;
+  font-style: italic;
+}
+
+pre.sh_sourceCode .sh_number {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_preproc {
+  color: #a90061;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_function {
+  color: #00447d;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_url {
+  color: #f00;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_date {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_time {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_file {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_ip {
+  color: #ff0000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_name {
+  color: #ff0000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_variable {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_oldfile {
+  color: #2f1dbe;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_newfile {
+  color: #ff0000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_difflines {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_selector {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_property {
+  color: #B26818;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_value {
+  color: #00f;
+  font-weight: normal;
+  font-style: normal;
+}

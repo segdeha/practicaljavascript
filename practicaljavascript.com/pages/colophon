@@ -1,0 +1,69 @@
+## About this site
+
+_Practical JavaScript_ is the original work of me, [Andrew Hedges](http://andrew.hedges.name), a 
+professional web developer since 1998. I wrote _Practical JavaScript_ because there seems to be a 
+dearth of introductions to the language that don't call you names like "dummy" or "idiot" if you don't 
+already know how to program. JavaScript programming is fun. I hope this site helps others discover its 
+joys!
+
+## Desktop software
+
+* [Coda](http://www.panic.com/coda/)
+* [Safari](http://www.apple.com/safari/)
+
+## Server software
+
+PracticalJavaScript.com is hosted on [pair Networks](http://pair.com/) using a slightly hacked version of 
+[EpiCode](http://github.com/jmathai/epicode) serving flat files parsed by 
+[SmartyPants](http://michelf.com/projects/php-smartypants/) and a slightly hacked version of 
+[Markdown](http://michelf.com/projects/php-markdown/). You can view the raw Markdown for any
+page by injecting `/pages` into its URL. E.g., for this page you can see the raw version at 
+<http://practicaljavascript.com/pages/colophon>
+
+Stats are tracked using [Google Analytics](http://www.google.com/analytics/).
+
+## Web standards
+
+This site is built with [HTML5](http://dev.w3.org/html5/spec/Overview.html) and 
+[CSS3](http://www.w3.org/TR/css3-roadmap/). No apologies. It 
+[validates](http://validator.w3.org/check?uri=http%3A%2F%2Fpracticaljavascript.com%2F;ss=1;verbose=1), 
+and if it doesn't, I want to hear about it. If it doesn't look good in your browser, consider upgrading your 
+browser. If you're using the latest and greatest and it still has issues, please let me know. Most importantly, 
+the content should be accessible across every imaginable user agent.
+
+## Acknowledgements
+
+Thank you to the inestimable [Remy Sharp](http://remysharp.com/) for giving us the super useful 
+[jsconsole.com](http://jsconsole.com/), without which this tutorial would have been far more wordy and 
+complicated.
+
+## Feedback
+
+Questions, comments and concerns can be directed to Andrew Hedges at 
+[&#97;&#110;&#100;&#114;&#101;&#119;&#64;&#112;&#114;&#97;&#99;&#116;&#105;&#99;&#97;&#108;&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#46;&#99;&#111;&#109;](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#110;&#100;&#114;&#101;&#119;&#64;&#112;&#114;&#97;&#99;&#116;&#105;&#99;&#97;&#108;&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#46;&#99;&#111;&#109;)
+
+You're more than welcome to suggest changes. The most effective way to do this is to edit the files I 
+use to serve this site and send them to me. Just insert `/pages` into the URL of any page on the site, 
+save the result locally and make your changes. Send them to me and I'll compare them with what's live 
+on the site and decide whether to incorporate your changes. Any changes will be acknowledged on this 
+page.
+
+Andrew is on Twitter at @[segdeha](http://twitter.com/segdeha) and @[practicaljs](http://twitter.com/practicaljs)
+
+## Fair use
+
+You might notice I stuck a copyright &copy; symbol on the site. The only thing I'm really trying to 
+prevent is someone reproducing this site in electronic or dead tree form _for profit without my 
+consent._ I consider any not-for-profit educational use of the information here as fair use.
+
+## Donations
+
+If you find _Practical JavaScript_ useful, you can help defray the costs of hosting the site by 
+donating a little something via PayPal. Thanks for your support!
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Y22YRN7DE55A4">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
