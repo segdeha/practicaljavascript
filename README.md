@@ -6,7 +6,7 @@ Practical JavaScript is...
 * ...a gentle introduction to JavaScript.
 * ...a work in progress.
 
-I started writing Practical JavaScript in October 2010. I stopped, like, a month later. Got busy, you know how it is.
+I started writing [Practical JavaScript](http://practicaljavascript.com/home) in October 2010. I stopped, like, a month later. Got busy, you know how it is.
 
 I'm posting this to GitHub with the hope that others will find the idea of a "simple as possible, but no simpler" introduction to the language useful enough to contribute to it in some way.
 
@@ -17,3 +17,5 @@ You can help by [creating new issues](https://github.com/segdeha/practicaljavasc
 Thanks!
 
 Andrew
+
+On Twitter: @[practicaljs](http://twitter.com/practicaljs)
